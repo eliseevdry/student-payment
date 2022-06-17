@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007c361e-b91d-4e08-9db1-4aa78f5da746" name="Changes" comment="version 1.0 start project upload dependencies" />
+    <list default="true" id="007c361e-b91d-4e08-9db1-4aa78f5da746" name="Changes" comment="version 1.0 start project upload dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/repository/StudentOrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/service/StudentOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/student_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/student_project.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eliseev/student/service/StudentOrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/StudentOrder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,9 +45,63 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "D:/Java/IDEA_project/student-payment",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "d8177aaf4df66788dd7067231c7bb581"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.eliseev.student.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentOrderServiceTest.testService">
+    <configuration name="StudentOrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.eliseev.student.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.eliseev.student.service" />
+      <option name="MAIN_CLASS_NAME" value="org.eliseev.student.service.StudentOrderServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentOrderServiceTest.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.eliseev.student.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.eliseev.student.service" />
+      <option name="MAIN_CLASS_NAME" value="org.eliseev.student.service.StudentOrderServiceTest" />
+      <option name="METHOD_NAME" value="testService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentOrderServiceTest.testService" />
+        <item itemvalue="JUnit.StudentOrderServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,7 +110,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655412760766</updated>
-      <workItem from="1655412762249" duration="1955000" />
+      <workItem from="1655412762249" duration="2974000" />
+      <workItem from="1655458772253" duration="7969000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0 start project upload dependencies">
       <created>1655414456887</created>
@@ -46,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655414456887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 1.0 start project upload dependencies">
+      <created>1655414968310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655414968310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
