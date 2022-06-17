@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007c361e-b91d-4e08-9db1-4aa78f5da746" name="Changes" comment="version 1.0 start project upload dependencies">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/repository/StudentOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/service/StudentOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/springContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/student_data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/student_project.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/eliseev/student/service/StudentOrderServiceTest.java" afterDir="false" />
+    <list default="true" id="007c361e-b91d-4e08-9db1-4aa78f5da746" name="Changes" comment="version 1.1 Test spring+hibernate+postgres">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Street.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/repository/StreetRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/StudentOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eliseev/student/service/StudentOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/service/StudentOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/student_project.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/student_project.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,6 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
@@ -111,7 +112,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655412760766</updated>
       <workItem from="1655412762249" duration="2974000" />
-      <workItem from="1655458772253" duration="7969000" />
+      <workItem from="1655458772253" duration="8917000" />
+      <workItem from="1655479709069" duration="4086000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0 start project upload dependencies">
       <created>1655414456887</created>
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655414968310</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version 1.1 Test spring+hibernate+postgres">
+      <created>1655467444322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655467444322</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1.0 start project upload dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.0 start project upload dependencies" />
+    <MESSAGE value="version 1.1 Test spring+hibernate+postgres" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.1 Test spring+hibernate+postgres" />
   </component>
 </project>
