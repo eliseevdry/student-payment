@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007c361e-b91d-4e08-9db1-4aa78f5da746" name="Changes" comment="version 1.1 Test spring+hibernate+postgres">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Street.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/repository/StreetRepository.java" afterDir="false" />
+    <list default="true" id="007c361e-b91d-4e08-9db1-4aa78f5da746" name="Changes" comment="version 1.2 Test add Address Embeddable and Street Entity">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Adult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/CountryArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/PassportOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/RegisterOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/repository/CountryAreaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/repository/PassportOfficeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/repository/RegisterOfficeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/repository/UniversityRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Street.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/Street.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/model/StudentOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eliseev/student/service/StudentOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/student/service/StudentOrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/student_project.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/student_project.sql" afterDir="false" />
@@ -24,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,7 +119,7 @@
       <updated>1655412760766</updated>
       <workItem from="1655412762249" duration="2974000" />
       <workItem from="1655458772253" duration="8917000" />
-      <workItem from="1655479709069" duration="4086000" />
+      <workItem from="1655479709069" duration="10179000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0 start project upload dependencies">
       <created>1655414456887</created>
@@ -136,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655467444322</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 1.2 Test add Address Embeddable and Street Entity">
+      <created>1655483990787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655483990787</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1.0 start project upload dependencies" />
     <MESSAGE value="version 1.1 Test spring+hibernate+postgres" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.1 Test spring+hibernate+postgres" />
+    <MESSAGE value="version 1.2 Test add Address Embeddable and Street Entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.2 Test add Address Embeddable and Street Entity" />
   </component>
 </project>

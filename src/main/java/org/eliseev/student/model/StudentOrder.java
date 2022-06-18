@@ -20,9 +20,12 @@ public class StudentOrder {
             @AttributeOverride(name = "address.postCode", column = @Column(name = "h_post_index")),
             @AttributeOverride(name = "address.building", column = @Column(name = "h_building")),
             @AttributeOverride(name = "address.extension", column = @Column(name = "h_extension")),
-            @AttributeOverride(name = "address.apartment", column = @Column(name = "h_apartment"))
+            @AttributeOverride(name = "address.apartment", column = @Column(name = "h_apartment")),
+            @AttributeOverride(name = "passportSeria", column = @Column(name = "h_passport_seria")),
+            @AttributeOverride(name = "passportNumber", column = @Column(name = "h_passport_number")),
+            @AttributeOverride(name = "issueDate", column = @Column(name = "h_passport_date"))
     })
-    private Person husband;
+    private Adult husband;
     @AssociationOverrides({
             @AssociationOverride(name = "address.street", joinColumns = @JoinColumn(name = "w_street_code"))
     })
@@ -34,9 +37,12 @@ public class StudentOrder {
             @AttributeOverride(name = "address.postCode", column = @Column(name = "w_post_index")),
             @AttributeOverride(name = "address.building", column = @Column(name = "w_building")),
             @AttributeOverride(name = "address.extension", column = @Column(name = "w_extension")),
-            @AttributeOverride(name = "address.apartment", column = @Column(name = "w_apartment"))
+            @AttributeOverride(name = "address.apartment", column = @Column(name = "w_apartment")),
+            @AttributeOverride(name = "passportSeria", column = @Column(name = "w_passport_seria")),
+            @AttributeOverride(name = "passportNumber", column = @Column(name = "w_passport_number")),
+            @AttributeOverride(name = "issueDate", column = @Column(name = "w_passport_date"))
     })
-    private Person wife;
+    private Adult wife;
 
     public Long getStudentOrderId() {
         return studentOrderId;
@@ -50,7 +56,7 @@ public class StudentOrder {
         return husband;
     }
 
-    public void setHusband(Person husband) {
+    public void setHusband(Adult husband) {
         this.husband = husband;
     }
 
@@ -58,7 +64,7 @@ public class StudentOrder {
         return wife;
     }
 
-    public void setWife(Person wife) {
+    public void setWife(Adult wife) {
         this.wife = wife;
     }
 

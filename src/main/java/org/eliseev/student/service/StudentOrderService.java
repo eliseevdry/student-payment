@@ -1,9 +1,6 @@
 package org.eliseev.student.service;
 
-import org.eliseev.student.model.Address;
-import org.eliseev.student.model.Person;
-import org.eliseev.student.model.Street;
-import org.eliseev.student.model.StudentOrder;
+import org.eliseev.student.model.*;
 import org.eliseev.student.repository.StreetRepository;
 import org.eliseev.student.repository.StudentOrderRepository;
 import org.slf4j.Logger;
@@ -41,8 +38,8 @@ public class StudentOrderService {
         LOGGER.info(sos.get(0).getWife().getGivenName());
     }
 
-    private Person buildPerson(boolean isWife) {
-        Person person = new Person();
+    private Adult buildPerson(boolean isWife) {
+        Adult person = new Adult();
         person.setDateOfBirth(LocalDate.now());
 
         Address address = new Address();
@@ -59,10 +56,16 @@ public class StudentOrderService {
             person.setSurName("Petrova");
             person.setGivenName("Elena");
             person.setPatronymic("Vasilievna");
+            person.setPassportSeria("WIFE_S");
+            person.setPassportNumber("WIFE_N");
+            person.setIssueDate(LocalDate.now());
         } else {
             person.setSurName("Petrov");
             person.setGivenName("Ivan");
             person.setPatronymic("Ruricovich");
+            person.setPassportSeria("HUSBAND_S");
+            person.setPassportNumber("HUSBAND_N");
+            person.setIssueDate(LocalDate.now());
         }
         return person;
     }
